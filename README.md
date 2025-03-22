@@ -91,3 +91,12 @@ Artificial datasets were generated using:
 1. Clone this repository:
    ```bash
    git clone https://github.com/seuusuario/ml-methods-comparison.git
+
+2. Create a virtual environment and install dependencies:
+
+  pip install -r requirements.txt
+
+3. Run the notebook:
+
+   jupyter notebook notebooks/main_analysis.ipynb
+
