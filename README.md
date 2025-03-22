@@ -47,7 +47,7 @@ The project is divided into several stages:
 
 ## 📊 Summary Plot
 
-![Summary Accuracy Heatmap](results/summary_accuracy_heatmap_updated.png)
+![Summary Accuracy Heatmap](results/ResumAssingmentBV.png)
 
 ---
 
