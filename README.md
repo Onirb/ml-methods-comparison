@@ -98,5 +98,5 @@ Artificial datasets were generated using:
   ```
 3. Run the notebook:
   ```bash
-  jupyter notebook notebooks/main_analysis.ipynb
+  notebooks/Assignment.ipynb
   ```
