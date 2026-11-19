@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-11-19T19:16:06.768074+00:00",
+  "data_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "samples_per_dataset": 600,
+  "cv_splits": 5,
+  "cv_repeats": 3,
+  "datasets": [
+    "shared_covariance_linear",
+    "heteroscedastic_qda",
+    "xor_tree",
+    "radial_rbf",
+    "indistinguishable_control"
+  ],
+  "python": "3.12.10",
+  "numpy": "2.5.5",
+  "pandas": "3.1.1",
+  "scikit_learn": "1.9.1",
+  "selection_rule": "No winner is selected; results describe behavior under fixed controlled conditions."
+}

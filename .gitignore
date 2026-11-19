@@ -1,0 +1,48 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local package caches
+.venv/
+.venv-legacy/
+venv/
+env/
+.cache/
+results/modern-smoke/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Generated datasets and serialized models
+*.csv
+*.npz
+*.npy
+*.pkl
+*.pickle
+*.joblib
+
+# Generated experiment outputs are ignored by default, except the compact
+# portfolio evidence intentionally published under results/modern.
+!results/modern/
+!results/modern/*.csv
+!results/modern/*.json
+!results/modern/*.png

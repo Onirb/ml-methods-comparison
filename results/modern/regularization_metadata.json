@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-11-19T19:29:44.836042+00:00",
+  "data_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "train_samples": 600,
+  "validation_samples": 600,
+  "test_samples": 2000,
+  "datasets": [
+    "shared_covariance_linear",
+    "heteroscedastic_qda",
+    "xor_tree",
+    "radial_rbf",
+    "indistinguishable_control"
+  ],
+  "selection": "ccp_alpha selected by macro F1 on a dedicated validation population",
+  "final_fit": "models fitted on train plus validation after selection",
+  "test_boundary": "test populations are used once for final evaluation"
+}

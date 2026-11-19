@@ -1,0 +1,10 @@
+{
+  "generated_at": "2026-11-19T19:24:32.376208+00:00",
+  "loss": "Brier score (squared probability error)",
+  "problem": "balanced two-class Gaussian mixture with known posterior",
+  "training_sets": 100,
+  "train_samples": 400,
+  "evaluation_samples": 10000,
+  "seed": 20261119,
+  "interpretation": "Descriptive controlled experiment; no model selection is performed."
+}
