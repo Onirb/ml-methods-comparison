@@ -1,5 +1,27 @@
 # Classifier Behavior on Controlled Synthetic Data
 
+## Portfolio overview
+
+A controlled experimentation lab for explaining how classical classifiers behave when the geometry and data-generating process are known. The repository prioritizes reproducible evidence and methodological limits over leaderboard-style claims.
+
+| Focus | Evidence |
+| --- | --- |
+| Research question | Which classifier families align with specific synthetic decision geometries? |
+| Experimental design | Fixed protocol, repeated independent seeds and a negative control |
+| Published evidence | Fold-level metrics, seed-level summaries, figures and reproducible scripts |
+| Scope | Controlled synthetic demonstrations, not universal real-world model rankings |
+
+```mermaid
+flowchart LR
+  A[Controlled synthetic geometries] --> B[Consistent preprocessing and splits]
+  B --> C[Classifier families]
+  C --> D[Repeated evaluation across seeds]
+  D --> E[Tables, figures and methodology audit]
+```
+
+**What it shows:** model performance depends on the structure of the problem, not a one-size-fits-all winner.
+
+
 A reproducible laboratory for studying how the inductive assumptions of
 classical classifiers interact with geometry, covariance, noise and class
 separability.
